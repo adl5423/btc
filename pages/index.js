@@ -1,8 +1,5 @@
 import React, { useState } from "react";
-
-const addresses = [
-""
-];
+const addresses = require('./checker/walletAddress');
 
 function Home() {
   const [address, setAddress] = useState("");
