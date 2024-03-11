@@ -1,5 +1,8 @@
 import React, { useState } from "react";
-import { addresses } from "./checker/address";
+
+const addresses = [
+""
+];
 
 function Home() {
   const [address, setAddress] = useState("");
