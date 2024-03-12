@@ -3,7 +3,7 @@ import Link from "next/link";
 
 function Header() {
   return (
-    <div className="flex justify-end items-center pr-10 pt-4">
+    <div className="relative flex justify-end items-center pr-10 pt-4">
       <Link href="">
         <img
           className="w-10 mr-8 cursor-pointer"

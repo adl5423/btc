@@ -31,10 +31,19 @@ function Home() {
   }
 
   return (
-    <div className="h-screen">
-      <Header />
+    <div className="h-screen w-screen bg-[#cb6f2c]">
+      <div className="absolute h-full w-full">
+        <img
+        className="absolute bottom-0 p-20"
+        src="/fox.png"
+        alt="fox"
+      />
+      </div>
+      <div className="z-10">
+        <Header />
+      </div>
       <div className="flex flex-col justify-center items-center max-[445px]:left-10">
-        <div className="mt-44 rounded-xl border-2 border-white pb-10 pt-12 w-[500px] shadow-lg shadow-white bg-gradient-to-b from-[#6F492E] to-black max-[645px]:w-[400px] max-[545px]:w-[300px]">
+        <div className="z-10 mt-44 rounded-xl border-2 border-white pb-10 pt-12 w-[500px] shadow-lg shadow-white bg-gradient-to-b from-[#6F492E] to-black max-[645px]:w-[400px] max-[545px]:w-[300px]">
           <div className="flex justify-center text-white items-center pb-8 text-xl font-bold">
             <p>Verify your wallet here</p>
           </div>
@@ -61,12 +70,6 @@ function Home() {
           </div>
         </div>
       </div>
-
-      <img
-        className="absolute right-0 top-0 opacity-75 -z-10 h-full"
-        src="/Sitefoxes.png"
-        alt="foxes"
-      />
     </div>
   );
 }
