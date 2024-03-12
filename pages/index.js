@@ -63,9 +63,9 @@ function Home() {
       </div>
 
       <img
-        className="absolute right-0 top-0 opacity-75 -z-10 h-screen w-screen"
+        className="absolute right-0 top-0 opacity-75 -z-10 h-full"
         src="/Sitefoxes.png"
-        alt=""
+        alt="foxes"
       />
     </div>
   );
