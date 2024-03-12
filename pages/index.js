@@ -35,7 +35,7 @@ function Home() {
       <Header />
       <div className="flex flex-col justify-center items-center max-[445px]:left-10">
         <div className="mt-44 rounded-xl border-2 border-white pb-10 pt-12 w-[500px] shadow-lg shadow-white bg-gradient-to-b from-[#6F492E] to-black max-[645px]:w-[400px] max-[545px]:w-[300px]">
-          <div className="flex justify-center items-center pb-8 text-xl font-bold">
+          <div className="flex justify-center text-white items-center pb-8 text-xl font-bold">
             <p>Verify your wallet here</p>
           </div>
           <div className="flex flex-col justify-center items-center">
@@ -57,7 +57,7 @@ function Home() {
           </div>
 
           <div className="mt-2 flex justify-center items-center pt-4">
-            <p className="text-lg italic font-sans">{result}</p>
+            <p className="text-lg italic font-sans text-white">{result}</p>
           </div>
         </div>
       </div>
